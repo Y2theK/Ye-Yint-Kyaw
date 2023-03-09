@@ -6,6 +6,13 @@ const contactForm = document.querySelector("#contactForm");
 
 contactForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  const para = document.createElement("p");
+
+  if (!name.value || !email.value || !message.value) {
+    para.innerText = "Fill all the field in the form...";
+    formStatus.appendChild(para);
+    return;
+  }
   var templateParams = {
     from_name: name.value,
     from_email: email.value,
@@ -17,7 +24,7 @@ contactForm.addEventListener("submit", (e) => {
   const failTextNode = document.createTextNode(
     "Email Sending failed. Try again..."
   );
-  const para = document.createElement("p");
+
   // console.log(name.value, email.value, message.value, templateParams);
   emailjs
     .send("service_sadzryi", "template_y2k_contactform", templateParams)
