@@ -436,7 +436,7 @@
         <!-- Contact -->
         <article id="contact">
           <h2 class="major">Contact</h2>
-          <form id="contactForm">
+          <form method="post" action="#">
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
@@ -458,16 +458,10 @@
             </div>
             <ul class="actions">
               <li>
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="primary"
-                  id="submitBtn"
-                />
+                <input type="submit" value="Send Message" class="primary" />
               </li>
-              <li><input type="reset" value="Reset" id="resetBtn" /></li>
+              <li><input type="reset" value="Reset" /></li>
             </ul>
-            <div id="formStatus"></div>
           </form>
           <ul class="icons">
             <li>
@@ -499,7 +493,7 @@
         </article>
 
         <!-- Elements -->
-        <!-- <article id="elements">
+        <article id="elements">
           <h2 class="major">Elements</h2>
 
           <section>
@@ -804,7 +798,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               </ul>
             </form>
           </section>
-        </article> -->
+        </article>
       </div>
 
       <!-- Footer -->
@@ -819,20 +813,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <div id="bg"></div>
 
     <!-- Scripts -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("ih6IRHEcf9V7Ij6Gx");
-      })();
-    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="index.js"></script>
   </body>
 </html>
