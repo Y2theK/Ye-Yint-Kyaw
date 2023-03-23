@@ -2,7 +2,7 @@
 
 ![Profile views](https://gpvc.arturio.dev/Y2theK)
 
-![Y2K](https://github.com/Y2theK/Y2theK/blob/main/y2k4.jpg)
+![Y2K](https://github.com/Y2theK/Y2theK.github.io/blob/main/y2k4.jpg)
 <h1 align="center">Hi 👋, I'm Ye Yint Kyaw</h1>
 <h3 align="center">A passionate web developer</h3>
 
